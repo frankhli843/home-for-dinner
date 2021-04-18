@@ -1,0 +1,81 @@
+.App {
+  text-align: center;
+  background-color: #282c34;
+  min-height: 100vh;
+  color: white;
+  padding: 10px;
+}
+
+a,
+a:visited {
+  color: white;
+  line-height: 1.2rem;
+  font-size: 1.2rem;
+}
+
+a:hover {
+  border-bottom: 1px solid #ccc;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: rgba(0, 0, 0, 0.4);
+  border: 2px solid white;
+  border-radius: 30px;
+  font-size: 1.3rem;
+  color: white;
+  margin: 5px;
+  cursor: pointer;
+}
+
+button:disabled {
+  /* background-color: #aaa; */
+  background-color: rgba(0, 0, 0, 0.2);
+  color: #999;
+  border: 2px solid #777;
+  cursor: not-allowed;
+}
+
+pre,
+code {
+  text-align: left;
+  display: block;
+  border: 1px solid #ccc;
+  padding: 5px;
+  overflow-x: auto;
+  white-space: pre-wrap;
+  white-space: -moz-pre-wrap;
+  white-space: -pre-wrap;
+  white-space: -o-pre-wrap;
+  word-wrap: break-word;
+  max-width: 100%;
+  word-wrap: break-word;
+}
+
+.app-error {
+  margin: 20px auto;
+  border: 2px solid yellow;
+  background-color: orange;
+  border-radius: 10px;
+  font-size: 1.2rem;
+  text-align: left;
+  padding: 20px;
+  width: 300px;
+  max-width: 95vw;
+}
+
+.app-loader {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  z-index: 10;
+  background-color: #282c34;
+  opacity: 0.9;
+  font-size: 3rem;
+}
